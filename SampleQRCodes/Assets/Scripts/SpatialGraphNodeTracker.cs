@@ -1,11 +1,6 @@
 ﻿using UnityEngine;
 using Microsoft.MixedReality.Toolkit.Utilities;
-
-#if MIXED_REALITY_OPENXR
 using Microsoft.MixedReality.OpenXR;
-#else
-using QRTracking.WindowsMR;
-#endif
 
 namespace QRTracking
 {
